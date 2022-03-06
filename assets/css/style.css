@@ -19,7 +19,7 @@ h1, h2 {
     font-family: Russo One, sans-serif;
     text-transform: uppercase;
     letter-spacing: 5px;
-    color: green;
+    color: red;
 }
 
 #logo {
@@ -40,7 +40,9 @@ h1, h2 {
 
 #nav-links a {
     text-decoration: none;
-    color: green;
+    color: red;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
 #nav-links, #logo {
@@ -50,4 +52,12 @@ h1, h2 {
 #nav-links a:hover {
     color: white;
     font-size: 20px;
+}
+
+/*introduction section*/
+
+#floating-image {
+    height: 600px;
+    width: 100%;
+    background: url('../images/kids-rugby.jpg');
 }
