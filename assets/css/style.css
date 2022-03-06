@@ -7,6 +7,22 @@
 }
 
 body {
-    font-family: Russo One, sans-serif;
+    font-family: Palanquin, sans-serif;
     font-weight: 300;
+    background-color: black;
+    color: whitesmoke;
+}
+
+/*headings and logo*/
+
+h1, h2 {
+    font-family: Russo One, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: green;
+}
+
+#logo {
+    float: left;
+    font-size: 300%;
 }
