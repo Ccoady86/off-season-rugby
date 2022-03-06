@@ -26,3 +26,28 @@ h1, h2 {
     float: left;
     font-size: 300%;
 }
+
+#nav-links {
+    font-size: 110%;
+    letter-spacing: 5px;
+}
+
+#nav-links li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#nav-links a {
+    text-decoration: none;
+    color: green;
+}
+
+#nav-links, #logo {
+    line-height: 75px;
+}
+
+#nav-links a:hover {
+    color: white;
+    font-size: 20px;
+}
