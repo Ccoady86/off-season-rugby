@@ -52,8 +52,8 @@ h1, h2 {
 
 #nav-links a:hover {
     color: white;
-    font-size: 20px;
 }
+
 
 /*introduction section*/
 
@@ -104,6 +104,30 @@ h1, h2 {
 }
 
 
-/*What we do section*/
+/*curriculum section*/
+
+#curriculum {
+    color: red;
+    height: 600px;
+}
+
+#tackle {
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+}
+
+#regulations {
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+}
+
+#concussion {
+    width: 33%;
+    margin: 0 auto;
+}
+
+
 
 
