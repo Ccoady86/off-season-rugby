@@ -25,6 +25,7 @@ h1, h2 {
 #logo {
     float: left;
     font-size: 300%;
+    margin-left: 30px;
 }
 
 #nav-links {
@@ -58,8 +59,15 @@ h1, h2 {
 
 #main-image {
     height: 600px;
-    width: 100%;
+    width: 99.5%;
     background: url('../images/lrg-main-image.jpg') no-repeat center center;
     overflow: hidden;
+    border: red solid 2px;
 }
 
+
+#intro-text {
+    position: absolute;
+    bottom: 300px;
+    right: 75px;
+}
