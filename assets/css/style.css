@@ -74,8 +74,7 @@ h2 {
     right: 75px;
 }
 
-#intro-text h1,
-h2 {
+#intro-text h1, h2 {
     color: white;
     text-align: center;
     font-size: 30px;
@@ -109,10 +108,11 @@ h2 {
 
 /*curriculum section*/
 
-#curriculum {
-    font-size: 30px;
+.header {
+    font-family: Russo One, sans-serif;
     text-align: center;
     margin-top: 30px;
+    font-size: 300%;
 }
 
 * {
@@ -124,4 +124,36 @@ h2 {
     float: left;
     width: 33%;
     padding: 10px;
+}
+
+#curriculum h2 {
+    color: whitesmoke;
+    text-align: center;
+    font-size: 30px;
+    text-shadow: red;
+    text-transform: capitalize;
+    
+}
+
+p {
+    font-family: palanquin, sans-serif;
+    font-size: larger;
+    text-align: justify;
+    margin-top: 30px;
+    color: whitesmoke;
+}
+
+.border-center {
+    border-left: 2px solid red;
+    padding-left: 5px;
+}
+
+.border-left {
+    border-left: 2px solid red;
+    padding-left: 5px;
+}
+
+.border-right {
+    border-left: 2px solid red;
+    padding-left: 5px;
 }
