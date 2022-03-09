@@ -15,7 +15,8 @@ body {
 
 /*headings and logo*/
 
-h1, h2 {
+h1,
+h2 {
     font-family: Russo One, sans-serif;
     text-transform: uppercase;
     letter-spacing: 5px;
@@ -46,7 +47,8 @@ h1, h2 {
     text-transform: uppercase;
 }
 
-#nav-links, #logo {
+#nav-links,
+#logo {
     line-height: 75px;
 }
 
@@ -72,7 +74,8 @@ h1, h2 {
     right: 75px;
 }
 
-#intro-text h1, h2 {
+#intro-text h1,
+h2 {
     color: white;
     text-align: center;
     font-size: 30px;
@@ -107,42 +110,18 @@ h1, h2 {
 /*curriculum section*/
 
 #curriculum {
-    color: red;
-    height: 600px;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 30px;
 }
 
-#tackle {
-    padding-top: 30px;
-    width: 33%;
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    margin-top: 30px;
     float: left;
-}
-
-#regulations {
-    padding-top: 30px;
     width: 33%;
-    float: right;
+    padding: 10px;
 }
-
-#concussion {
-    width: 33%;
-    margin: 0 auto;
-}
-
-.tackle-heading {
-    width: 33%;
-    margin-left: 30px;
-    text-align: center;
-}
-
-.concussion-heading {
-    margin: 0 auto;
-}
-
-.rules-heading {
-    width: 33%;
-    margin-right: 30px;
-    text-align: center;
-}
-
-
-
