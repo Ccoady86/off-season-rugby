@@ -74,11 +74,11 @@ h2 {
     right: 75px;
 }
 
-#intro-text h1, h2 {
+#intro-text h1, h2, h3, h4 {
     color: white;
     text-align: center;
     font-size: 30px;
-    text-shadow: 2px 2px red;
+    
 
 }
 
@@ -165,7 +165,18 @@ p {
 #location {
     font-family: Russo One, sans-serif;
     text-align: center;
-    margin: 300px 0;
-    font-size: 280%;
+    font-size: 30px;
+    margin-top: 350px;
+    letter-spacing: 5px;
     
 }
+
+#over-text {
+    border-left: 2px solid red;
+}
+
+#clubs {
+    background-color: blue;
+}
+
+
