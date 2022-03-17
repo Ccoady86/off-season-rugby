@@ -11,13 +11,38 @@ body {
     font-weight: 300;
     background-color: black;
     color: whitesmoke;
+    margin: 0;
+    height: 100%;
+    position: relative;
 }
+
+html {
+    height: 100%;
+    position: relative;
+}
+
+section {
+    display: block;
+    height: 100%;
+    padding: 75px;
+    padding-left: 100px;
+}
+
+
 
 /*headings and logo*/
 
 h1, h2 {
     font-family: Russo One, sans-serif;
     text-transform: uppercase;
+    letter-spacing: 5px;
+    color: greenyellow;
+}
+
+h3 {
+    font-family: Russo One, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
     letter-spacing: 5px;
     color: greenyellow;
 }
@@ -75,7 +100,7 @@ img {
 #intro-text {
     position: absolute;
     top: 150px;
-    right: 75px;
+    right: 150px;
     text-align: center;
     font-size: 30px;
 }
@@ -110,7 +135,7 @@ img {
 
 /*curriculum section*/
 
-#learn {
+.learn {
     font-family: Russo One, sans-serif;
     text-align: center;
     margin-top: 30px;
@@ -130,38 +155,18 @@ img {
     padding: 10px;
 }
 
-#curriculum h2 {
-    color: whitesmoke;
-    text-align: center;
-    font-size: 30px;
-    text-transform: capitalize;
-    
-}
-
 p {
     font-family: palanquin, sans-serif;
     font-size: larger;
     font-weight: bold;
     text-align: justify;
-    margin-top: 30px;
     color: whitesmoke;
 }
 
-.border-center {
+.para-text {
     border-left: 2px solid greenyellow;
     padding-left: 5px;
 }
-
-.border-left {
-    border-left: 2px solid greenyellow;
-    padding-left: 5px;
-}
-
-.border-right {
-    border-left: 2px solid greenyellow;
-    padding-left: 5px;
-}
-
 
 
 /*location section*/
@@ -181,23 +186,12 @@ p {
     font-size: 20px;
 }
 
-.still-text {
+.border-text {
     border-left: 2px solid greenyellow;
     text-align: center;
     font-size: 20px;
 }
 
-.water-text {
-    border-left: 2px solid greenyellow;
-    text-align: center;
-    font-size: 20px;
-}
-
-.gal-text {
-    border-left: 2px solid greenyellow;
-    text-align: center;
-    font-size: 20px;
-}
 
 /*meet the team section*/
 
@@ -205,8 +199,9 @@ p {
     font-family: Russo One, sans-serif;
     text-align: center;
     font-size: 30px;
+    margin-top: 30px;
     letter-spacing: 5px;
-    margin-top: 300px;
+    line-height: 50px;
 }
 
 .container {
@@ -267,6 +262,10 @@ p {
     transform: translate(-50%, -50%);
     text-align: center;
   }
+
+  /*sign up section*/
+
+  
 
 
 
