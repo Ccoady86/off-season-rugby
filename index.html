@@ -30,11 +30,10 @@
 
     <section>
         <div id="main-image">
-            <img src="./assets/images/lrg-main-image.jpg">
+            <img src="./assets/images/lrg-main-image.jpg" alt="rugby players huddle">
             <div class="pulse">
                 <div id="intro-text">
-                    <h2>One Day Rugby Safety Seminars</h2>
-                    <h2>For Young Players During Off Season</h2>
+                    <h2>Off Season Rugby Safety Seminars</h2>
                 </div>
             </div>
         </div>
@@ -79,9 +78,8 @@
             </div>
     </section>
 
-
-    <section id="location">
-        <div>
+    <section>
+        <div id="location">
             <h3 class="venue"><i class="fa-solid fa-location-dot"></i> Where will you learn with us? <i
                     class="fa-solid fa-location-dot"></i></h3>
         </div>
@@ -120,8 +118,8 @@
         </div>
     </section>
 
-    <section id="team">
-        <div>
+    <section>
+        <div id="team">
             <h3 class="team-info"><i class="fa-solid fa-handshake"></i> Meet the Team <i
                     class="fa-solid fa-handshake"></i></h3>
         </div>
@@ -166,10 +164,61 @@
         </div>
     </section>
 
-    <section id="signup">
-        <div>
-            <h2>Sign Up</h2>
+    <section>
+        <div id="signup">
+            <h3 class="registration"> <i class="fa-solid fa-pen"></i> Sign Up <i class="fa-solid fa-pen"></i></h3>
+
+            <form method="POST" action="https://formdump.codeinstitute.net/" class="signup-form">
+                <label for="fname">First Name</label>
+                <input id="fname" name="first_name" type="text" required>
+                
+                <label for="lname">Last Name</label>
+                <input id="lname" name="last_name" type="text" required>
+                
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email_address" required>
+
+                <label for="stillorgan">Stillorgan RFC</label>
+                <input type="radio" id="stillorgan" name="location_preference" value="stillorgan" required>
+                <label for="date">Date</label>
+                <select id="date" name="preffered_date">
+                    <option></option>
+                    <option value="05/July/22">05/July/22</option>
+                    <option value="12/July/22">12/July/22</option>
+                    <option value="19/July/22">19/July/22</option>
+                    <option value="26/July/22">26/July/22</option>
+                </select>
+
+                <label for="waterpark">Waterpark RFC</label>
+                <input type="radio" id="waterpark" name="location_preference" value="waterpark" required>
+                <label for="date">Date</label>
+                <select id="date" name="preffered_date">
+                    <option></option>
+                    <option value="07/July/22">07/July/22</option>
+                    <option value="14/July/22">14/July/22</option>
+                    <option value="21/July/22">21/July/22</option>
+                    <option value="28/July/22">28/July/22</option>
+                </select>
+
+
+                <label for="galweigans">Galweigans RFC</label>
+                <input type="radio" id="galweigans" name="location_preference" value="galweigans" required>
+                <label for="date">Date</label>
+                <select id="date" name="preffered_date">
+                    <option></option>
+                    <option value="09/July/22">09/July/22</option>
+                    <option value="16/July/22">16/July/22</option>
+                    <option value="23/July/22">23/July/22</option>
+                    <option value="30/July/22">30/July/22</option>
+                </select>
+                
+                <input class="join-button" type="submit" value="Join Us">
+            </form>
+
         </div>
+
+        
+
     </section>
 
 

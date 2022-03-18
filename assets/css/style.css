@@ -29,17 +29,16 @@ section {
 }
 
 
-
 /*headings and logo*/
 
-h1, h2 {
+h1 {
     font-family: Russo One, sans-serif;
     text-transform: uppercase;
     letter-spacing: 5px;
     color: greenyellow;
 }
 
-h3 {
+h2, h3 {
     font-family: Russo One, sans-serif;
     text-transform: uppercase;
     text-align: center;
@@ -51,9 +50,6 @@ h3 {
     float: left;
     font-size: 300%;
     margin-left: 30px;
-}
-
-#logo {
     line-height: 75px;
 }
 
@@ -86,7 +82,7 @@ h3 {
 
 #main-image {
     height: 600px;
-    width: 99.5%;
+    width: 100%;
     overflow: hidden;
     border: greenyellow solid 2px;
 }
@@ -105,9 +101,6 @@ img {
     font-size: 30px;
 }
 
-#intro-text h2 {
-    color: greenyellow;
-}
 
 /*intro-text animation*/
 
@@ -138,7 +131,7 @@ img {
 .learn {
     font-family: Russo One, sans-serif;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 75px;
     font-size: 30px;
     letter-spacing: 5px;
     line-height: 50px;
@@ -175,7 +168,7 @@ p {
     font-family: Russo One, sans-serif;
     text-align: center;
     font-size: 30px;
-    margin-top: 75px;
+    margin-top: 150px;
     letter-spacing: 5px;
     line-height: 50px;
     
@@ -199,7 +192,7 @@ p {
     font-family: Russo One, sans-serif;
     text-align: center;
     font-size: 30px;
-    margin-top: 30px;
+    margin-top: auto 0;
     letter-spacing: 5px;
     line-height: 50px;
 }
@@ -265,8 +258,16 @@ p {
 
   /*sign up section*/
 
-  
+  .registration {
+    font-family: Russo One, sans-serif;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 300px;
+    letter-spacing: 5px;
+    line-height: 50px;
+  }
 
+  
 
 
 
@@ -293,7 +294,7 @@ footer {
      margin: 1%;
      padding: 5%;
      color: greenyellow;
-     margin-top: 300pxpx;
+     margin-top: 300px;
 
  }
 
