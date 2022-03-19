@@ -289,26 +289,22 @@ p {
   }
 
   .signup-form {
-    margin: 150px 10% 0 0;
-    max-width: 100%;
-    position: absolute;
-    left: 10%;
+    margin: 20px;
+    max-width: 525px;
     padding: 30px;
 }
-
 
 .text-input {
     background: transparent;
     color: #fafafa;
     width: 100%;
     height: 25px;
-    margin: 5px 0 20px 0;
     border: 1px solid #fafafa;
     border-radius: 2px;
 }
 
 .text-input:hover {
-    border-color: #f16c6b;
+    border-color: greenyellow;
 }
 
 .join-button {
