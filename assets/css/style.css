@@ -160,10 +160,6 @@ p {
 
 /*location section*/
 
-#location {
-    background-color: rgba(60, 60, 60, 0.6);
-    overflow: hidden;
-}
 
 .venue {
     font-family: Russo One, sans-serif;
@@ -259,10 +255,7 @@ p {
 
   /*sign up section*/
 
-  #signup {
-    background-color: rgba(60, 60, 60, 0.6);
-  }
-
+ 
   #signup p {
       text-align: center;
       font-size: 30px;
@@ -273,10 +266,14 @@ p {
   }
 
   .form {
-        height: 450px;
+        height: 425px;
         border: greenyellow solid 2px;
-        background: url('/assets/images/rugbyball.jpg') no-repeat;
         background-position: right;
+  }
+
+  .form img {
+      height: 420px;
+      float: right;
   }
 
   .registration {
@@ -290,8 +287,14 @@ p {
 
   .signup-form {
     margin: 20px;
+    margin-left: 300px;
     max-width: 525px;
     padding: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 15px;
+    color: greenyellow;
+
 }
 
 .text-input {
