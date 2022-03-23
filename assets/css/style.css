@@ -26,6 +26,7 @@ section {
     height: 100%;
     padding: 75px;
     padding-left: 100px;
+    margin-bottom: 30px;
 }
 
 
@@ -35,7 +36,7 @@ h1 {
     font-family: Russo One, sans-serif;
     text-transform: uppercase;
     letter-spacing: 5px;
-    color: greenyellow;
+    color: yellow;
 }
 
 h2, h3 {
@@ -43,7 +44,7 @@ h2, h3 {
     text-transform: uppercase;
     text-align: center;
     letter-spacing: 5px;
-    color: greenyellow;
+    color: yellow;
 }
 
 #logo {
@@ -67,7 +68,7 @@ h2, h3 {
 }
 
 #menu a {
-    color: greenyellow;
+    color: yellow;
     padding: 10px;
     text-decoration: none;
     font-weight: bold;
@@ -84,7 +85,7 @@ h2, h3 {
     height: 600px;
     width: 100%;
     overflow: hidden;
-    border: greenyellow solid 2px;
+    border: yellow solid 2px;
 }
 
 
@@ -153,7 +154,7 @@ p {
 }
 
 .para-text {
-    border-left: 2px solid greenyellow;
+    border-left: 2px solid yellow;
     padding-left: 5px;
 }
 
@@ -177,7 +178,7 @@ p {
 }
 
 .border-text {
-    border-left: 2px solid greenyellow;
+    border-left: 2px solid yellow;
     text-align: center;
     font-size: 20px;
 }
@@ -210,7 +211,7 @@ p {
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: greenyellow;
+    background-color: yellow;
     overflow: hidden;
     width: 100%;
     height: 0;
@@ -222,7 +223,7 @@ p {
     bottom: 100%;
     left: 0;
     right: 0;
-    background-color: greenyellow;
+    background-color: yellow;
     overflow: hidden;
     width: 100%;
     height:0;
@@ -238,6 +239,7 @@ p {
   .container:hover .overlay {
     height: 100%;
   }
+
   
   .text {
     color: black;
@@ -259,7 +261,7 @@ p {
   #signup p {
       text-align: center;
       font-size: 30px;
-      color: greenyellow;
+      color: yellow;
       font-family: palanquin, sans-serif;
       text-transform: uppercase;
       font-weight: bold;
@@ -267,7 +269,7 @@ p {
 
   .form {
         height: 425px;
-        border: greenyellow solid 2px;
+        border: yellow solid 2px;
         background-position: right;
   }
 
@@ -293,7 +295,7 @@ p {
     text-align: center;
     text-transform: uppercase;
     font-size: 15px;
-    color: greenyellow;
+    color: yellow;
 
 }
 
@@ -307,7 +309,7 @@ p {
 }
 
 .text-input:hover {
-    border-color: greenyellow;
+    border-color: yellow;
 }
 
 .join-button {
@@ -341,18 +343,39 @@ footer {
 
  .footer-links > li {
     display: inline;
-    color: greenyellow;
+    color: yellow;
  }
 
  .footer-links i {
      font-size: 160%;
      margin: 1%;
      padding: 5%;
-     color: greenyellow;
+     color: yellow;
      margin-top: 30px;
 
  }
 
+
+ @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+
+    #logo {
+        width: 75%;
+        display: flexbox;
+    }
+
+
+    #menu {
+        display: grid;
+        padding: 20%;
+    }
+
+    #logo {
+        width: auto 0;
+    }
+  }
 
 
 
