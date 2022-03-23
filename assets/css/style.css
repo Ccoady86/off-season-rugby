@@ -318,14 +318,14 @@ p {
     padding: 15px 32px 15px 32px;
     text-align: center;
     font-size: 100%;
-    background-color: #f16c6b;
-    color: #fafafa;
+    background-color: yellow;
+    color: black;
     display: block;
 }
 
 .join-button:hover {
-    background-color: #fafafa;
-    color: #f16c6b;
+    background-color: greenyellow;
+    color: yellow;
 }
   
 
@@ -361,21 +361,23 @@ footer {
       width: 100%;
     }
 
-    #logo {
-        width: 75%;
-        display: flexbox;
-    }
-
-
     #menu {
-        display: grid;
-        padding: 20%;
-    }
-
-    #logo {
         width: auto 0;
-    }
+        display: grid;
+      }
+
+      h1 {
+          width: auto 0;
+      }
+
+      #main-image {
+          width: auto 0;
+      }
+
+
   }
+
+  
 
 
 
