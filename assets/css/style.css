@@ -355,31 +355,132 @@ footer {
 
  }
 
+ /*media queris for small screens*/
+
 
  @media screen and (max-width: 600px) {
-    .column {
+     section {
+         padding: 5px;
+         height: auto;
+     }
+
+     .column {
+         width: 100%;
+     }
+
+     nav {
+         overflow: hidden;
+         clear: both;
+     }
+
+     #menu {
+        overflow: hidden;
+        position: relative;
+        font-size: 16px;
+        margin: 0 auto;
+        text-align: center;
+     }
+    
+     h1 {
+        width: auto 0;
+    }
+
+    #logo {
+      font-size: 20px;
+      font-size: 25px;
+      line-height: 20px;
+  }
+
+    #main-image {
+        width: auto 0;
+        height:auto;
+    }
+
+    #main-image img {
+        width:100%;
+    }
+
+  #intro-text {
+      font-size: 22px;
+      left: 0;
+      right: 0;
+  }
+
+  .form {
+      height:auto;
+  }
+
+  .form img {
       width: 100%;
+      height: auto;
+  }
+
+  .signup-form {
+      margin: 0;
+  }
+
+ }
+
+
+ @media screen and (max-width: 1200px) {
+    section {
+        padding: 5px;
+        height: auto;
+    }
+
+    .column {
+        width: 100%;
+    }
+
+    nav {
+        overflow: hidden;
+        clear: both;
     }
 
     #menu {
-        width: auto 0;
-        display: grid;
-      }
+       overflow: hidden;
+       position: relative;
+       font-size: 16px;
+       margin: 0 auto;
+       text-align: center;
+    }
+   
+    h1 {
+       width: auto 0;
+   }
 
-      h1 {
-          width: auto 0;
-      }
+   #logo {
+     font-size: 20px;
+     font-size: 25px;
+     line-height: 20px;
+ }
 
-      #main-image {
-          width: auto 0;
-      }
+   #main-image {
+       width: auto 0;
+       height:auto;
+   }
 
+   #main-image img {
+       width:100%;
+   }
 
-  }
+ #intro-text {
+     font-size: 22px;
+     left: 0;
+     right: 0;
+ }
 
-  
+ .form {
+     height:auto;
+ }
 
+ .form img {
+     width: 100%;
+     height: auto;
+ }
 
+ .signup-form {
+     margin: 0;
+ }
 
-
- 
+}
