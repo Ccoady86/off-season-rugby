@@ -271,13 +271,13 @@ footer {
     }
 
     #location {
-        flex-wrap: wrap;
+        flex-direction: column;
     }
 
     #location .box {
-        width: 66%;
-        padding: 6px;
-        height: auto;
+        padding: 14px;
+        margin: 2px 0px; 
+        margin-bottom: 20px;
     }
 
     #form {
