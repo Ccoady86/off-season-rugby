@@ -112,16 +112,16 @@ body {
 /* Content */
 
 #content {
-    margin: 34px;
+    margin: 35px;
     display: flex;
     flex-direction: column;
 }
 
 #content .box { 
     border: 4px solid yellow;
-    padding: 34px;
+    padding: 35px;
     margin: 2px 55px;
-    border-radius: 28px;
+    border-radius: 30px;
     background: whitesmoke;
     margin-bottom: 20px;
 }
@@ -233,135 +233,60 @@ footer {
  }
 
 
- /*media queris for small screens*/
-
-
- @media screen and (max-width: 600px) {
-     section {
-         padding: 5px;
-         height: auto;
-     }
-
-     .column {
-         width: 100%;
-     }
-
-     #navbar ul li a {
-         overflow: hidden;
-         clear: both;
-     }
-
-     #menu {
-        overflow: hidden;
-        position: relative;
-        font-size: 16px;
-        margin: 0 auto;
-        text-align: center;
-     }
-    
-     h1 {
-        width: auto 0;
-    }
-
-    #logo {
-      font-size: 20px;
-      font-size: 25px;
-      line-height: 20px;
-  }
-
-    #main-image {
-        width: auto 0;
-        height:auto;
-    }
-
-    #main-image img {
-        width:100%;
-    }
-
-  #intro-text {
-      font-size: 22px;
-      left: 0;
-      right: 0;
-  }
-
-  .form {
-      height:auto;
-  }
-
-  .form img {
-      width: 100%;
-      height: auto;
-  }
-
-  .signup-form {
-      margin: 0;
-  }
-
- }
-
-
  /*media queries for small screens*/
 
- @media screen and (max-width: 600px) {
 
+ @media screen and (max-width: 600px) {
+    #home {
+        height: 370px; 
+        padding: 3px 28px;
+    }
     
-    nav {
-        overflow: hidden;
-        clear: both;
+    #home::before {
+        height: 480px; 
+    }
+    
+    #home p {
+        font-size: 13px;
     }
 
     #navbar {
-       overflow: hidden;
-       position: relative;
-       font-size: 16px;
-       margin: 0 auto;
-       text-align: center;
+        flex-direction: column;
     }
-   
-    h1 {
-       width: auto 0;
-   }
+    
+    #navbar ul li a {
+        font-size: 1rem;
+        padding: 0px 7px;
+        padding-bottom: 8px;
+    }
 
-   #logo {
-     font-size: 20px;
-     font-size: 25px;
-     line-height: 20px;
- }
+    #content {
+        flex-direction: column;
+    }
+    
+    #content .box { 
+        padding: 14px;
+        margin: 2px 0px; 
+        margin-bottom: 20px;
+    }
 
-   #main-image {
-       width: auto 0;
-       height:auto;
-   }
+    #location {
+        flex-wrap: wrap;
+    }
 
-   #main-image img {
-       width:100%;
-   }
+    #location .box {
+        width: 66%;
+        padding: 6px;
+        height: auto;
+    }
 
- #intro-text {
-     font-size: 22px;
-     left: 0;
-     right: 0;
- }
+    #form {
+        width: 80%;
+    }
 
- .form {
-     height:auto;
- }
+    #signup::before {
+        height: 100%;
+        width: 100%;
+    }
 
- .form img {
-     width: auto;
-     height: auto 0;
- }
-
- .signup-form {
-     margin: 0;
- }
-
- .registration {
-     text-align: center;
- }
-
-
- }
-
-
-
+}
