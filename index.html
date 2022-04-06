@@ -31,7 +31,7 @@
         <p>Rugby safety seminars held during the off season </p>
         <p>For players aged 5 to 20 </p>
         <br>
-        <button class="btn">Sign Up Now</button>
+        <button class="btn"><a href="#signup">Sign Up Now</a></button>
     </section>
 
     <section id="content">
@@ -78,14 +78,13 @@
     </section>
 
     <section id="location">
-        <div>
-            <h1 class="main-heading"><i class="fa-solid fa-location-dot"></i> Location <i class="fa-solid fa-location-dot"></i></h1>
-        </div>
-        
+        <h1 class="main-heading"><i class="fa-solid fa-location-dot"></i> Location <i 
+            class="fa-solid fa-location-dot"></i></h1>
+
         <div class="box">
                 <img src="./assets/images/stillorganrfc.png" alt="kids playing rugby" style="width: 100%;">
                 <div class="border-text">
-                    <h3>Stillorgan RFC</h3>
+                    <h3><a href="https://m.facebook.com/StillorganRathfarnhamRFC/" title="Go to Stillorgan RFC" target="-blank">Stillorgan RFC</a></h3>
                     <h4>Tuesday 09:00 - 17:00</h4>
                 </div>
             </div>
@@ -93,7 +92,7 @@
             <div class="box">
                 <img src="./assets/images/waterpark.jpg" alt="kids playing rugby" style="width: 100%;">
                 <div class="border-text">
-                    <h3>Waterpark RFC</h3>
+                    <h3><a href="https://waterparkrfc.com/" title="Go to Waterpark RFC" target="_blank"> Waterpark RFC</a></h3>
                     <h4>Thursday 09:00 - 17:00</h4>
                 </div>
             </div>
@@ -101,7 +100,7 @@
             <div class="box">
                 <img src="./assets/images/galweigans.jpg" alt="kids playing rugby" style="width: 100%;">
                 <div class="border-text">
-                    <h3>Galweigans RFC</h3>
+                    <h3><a href="https://galwegians.ie/" title="Go to Galweigans RFC" target="_blank">Galweigans RFC</a></h3>
                     <h4>Saturday 10:00 - 18:00</h4>
                 </div>
             </div>
@@ -130,8 +129,6 @@
                 <input id="phone" class="text-input" name="phone_number" type="tel" placeholder="Enter Here" required>
                 </div>
                 <br>
-                <p class="form-text">Choose prefered venue</p>
-                <br>
                 <div class="form-text">
                 <label for="stillorgan">Stillorgan RFC</label>
                 <input type="radio" id="stillorgan" name="location_preference" value="stillorgan" required>
@@ -142,10 +139,10 @@
                 </div>
                 <div class="form-text">
                 <label for="galweigans">Galweigans RFC</label>
-                <input type="radio" id="galweigans" name="location_preference" value="galweigans" required>
+                <input type="radio" data-type="horizontal" id="galweigans" name="location_preference" value="galweigans" required>
                 </div>
                     
-                <input class="join-button" type="submit" value="Join Us">
+                <input class="btn" type="submit" value="Join Us">
             </form>
         </div>
 
@@ -155,11 +152,11 @@
     <footer>
         <ul class="footer-links">
             <li>
-                <a href="https://facebook.com" target="_blank" rel="noopener"
+                <a href="https://facebook.com" target="_blank" title="Visit our Facebook page" rel="noopener"
                     aria-label="Visit our Facebook page (opens in new tab)"><i class="fa-brands fa-facebook"></i></a>
             </li>
             <li>
-                <a href="https://instagram.com" target="_blank" rel="noopener"
+                <a href="https://instagram.com" target="_blank" title="Visit our Instagram" rel="noopener"
                     aria-label="Visit our Instagram page (opens in new tab)"><i class="fa-brands fa-instagram"></i></a>
             </li>
         </ul>
