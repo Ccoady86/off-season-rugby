@@ -41,3 +41,9 @@ In the GitHub repository, navigate to the Settings tab
 From the source section drop-down menu, select the Master Branch
 Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 The Link can be found here:
+https://ccoady86.github.io/off-season-rugby/
+
+# Credits
+I found this project very difficult to begin with. However I followed tutorials from here: https://codewithharry.com/ and I credit the entire re-design of my page from following his lessons on CSS and HTML
+
+
